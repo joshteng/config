@@ -1,0 +1,57 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.letterSpacing": 0.5,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "sublimeTextKeymap.promptV3Features": true,
+    "python.pythonPath": "/anaconda3/envs/py3/bin/python",
+    "python.linting.enabled": false,
+    "python.linter": "pyLint",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[ruby]": {
+        "editor.formatOnSaveTimeout": 3000,
+        "editor.formatOnSave": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    // "ruby.codeCompletion": "solargraph",
+    "ruby.lint": {
+        "reek": false,
+        "ruby": true, //Runs ruby -wc
+        "fasterer": false,
+        "debride": false,
+        "ruby-lint": false,
+        "rubocop": true
+    },
+    "ruby.lintDebounceTime": 500,
+    // "ruby.intellisense": "solargraph",
+    // "ruby.locate": {
+    //     "include": "**/*.rb",
+    //     "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}"
+    // },
+    "ruby.format": "rubocop",
+    "explorer.confirmDragAndDrop": false,
+    "python.linting.pylintEnabled": false,
+    "editor.formatOnPaste": true
+}
